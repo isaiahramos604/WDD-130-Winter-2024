@@ -6,6 +6,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 { 
     text-align: center;
@@ -26,6 +27,10 @@ main section{
 }
 body {
     background-color: beige;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: bisque;
@@ -38,11 +43,21 @@ nav a:hover {
     background-color: #F9F6F0;
     color: black;
     text-decoration: none;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: blanchedalmond;
     color: black;
     text-decoration: none;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #C4AE78;
@@ -53,14 +68,21 @@ nav a:hover {
 }
 .msg {
     background-color: #C4AE78;
+    line-height: 1.5em;
+    padding: 35px; 
 }
 footer {
     background-color: blanchedalmond;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
     
 }
 .home-title {
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
@@ -74,6 +96,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -87,3 +110,24 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.msg p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px; 
+}
+footer .social img {
+    padding-top: 15px; 
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; 
+}
+.card-img {
+    border: 10px solid #000; 
+    
+}
