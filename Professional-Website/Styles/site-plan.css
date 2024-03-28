@@ -162,11 +162,11 @@ nav a:hover {
 
 
 .sm-contact {
-  grid-area: contact; /* Placing contact at the end */
+  grid-area: contact; 
   background-color: #ccc;
   line-height: 3em;
   text-align: center;
-  cursor: pointer; /* Add cursor:pointer to change cursor on hover */
+  cursor: pointer; 
 }
 
 .top {
