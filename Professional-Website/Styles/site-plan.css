@@ -141,6 +141,9 @@ nav a:hover {
   text-align: center;
 
 }
+
+
+
 .sm-home {
   grid-area: home;
   background-color: #ccc;
@@ -155,6 +158,15 @@ nav a:hover {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+}
+
+
+.sm-contact {
+  grid-area: contact; /* Placing contact at the end */
+  background-color: #ccc;
+  line-height: 3em;
+  text-align: center;
+  cursor: pointer; /* Add cursor:pointer to change cursor on hover */
 }
 
 .top {
@@ -174,12 +186,6 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-.WireFramePage3 {
+.WireFrames {
   width: 1200px;
-  height: auto;
-}
-
-.WireFramePage2 {
-  width: 1200px;
-  height: auto;
 }
