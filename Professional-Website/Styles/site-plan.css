@@ -186,6 +186,10 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-.WireFrames {
-  width: 1200px;
+.WireFrames img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
