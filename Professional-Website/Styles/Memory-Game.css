@@ -1,0 +1,132 @@
+body, h1, ul, li, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9eb3c2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #c0d6df;
+}
+
+#logo {
+    
+    width: 100px;
+    height: auto;
+    background-color: #ccdbdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid #aeb8b9;
+    background-color: #aeb8b9;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fefcfb;
+    padding: 5px 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+nav a:hover {
+    color: #386fa4; 
+    background-color: #90e0ef; 
+}
+
+.placeholder {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #d9dcd6;
+    padding: 20px;
+}
+
+.placeholder img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #c1d5db;
+    padding: 10px;
+    background-color: #c1d5db;
+}
+
+@media (min-width: 768px) {
+    .placeholder {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse; 
+    }
+    .placeholder img {
+        width: 45%;
+    }
+    .placeholder p {
+        flex-grow: 1;
+        padding: 0 20px;
+    }
+}
+
+
+
+.social a {
+    display: inline-block; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.social a img {
+    width: 40px; 
+    height: auto; 
+}
+
+.social a:hover,
+.social a:focus { 
+    transform: scale(1.1);
+    opacity: 0.7; 
+}
+
+@media (min-width: 768px) {
+    .placeholder {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse; /* This reverses the order of flex items */
+    }
+    .placeholder img {
+        width: 45%;
+    }
+    .placeholder p {
+        flex-grow: 1;
+        padding: 0 20px;
+    }
+}
