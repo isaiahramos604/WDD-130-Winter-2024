@@ -5,7 +5,7 @@ body, h1, ul, li, p, img {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background-color: #ade8f4;
 }
 
@@ -15,6 +15,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 2px solid #caf0f8;
+    font-family: 'Roboto'
 }
 
 #logo {
@@ -58,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fff; 
+    color: #386fa4; 
     background-color: #90e0ef; 
 }
 
